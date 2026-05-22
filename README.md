@@ -125,7 +125,7 @@ The following images show the PCB design, routing, 3D view, and hardware develop
 </p>
 
 ---
--
+
 ## 🙏 Thanks to PCBWay
 
 All of the design work on this **ESP32 Programmable PWM Controller with Modbus RTU** — concept, schematic design, PCB routing, firmware development, and debugging — is self-driven.
