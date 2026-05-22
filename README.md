@@ -96,48 +96,43 @@ The RS-485 interface allows the board to work as a Modbus RTU slave device in a 
 
 ---
 
-### 4. Power Supply Section
+## 📸 Project Images
 
-The board is powered from a 12 V input supply.
+The following images show the PCB design, routing, 3D view, and hardware development process of the **ESP32 Programmable PWM Controller with Modbus RTU**.
 
-The power section includes:
+---
 
-- 12 V input connector
-- Input protection diode
-- LM2596S-5.0 buck converter for 5 V generation
-- AMS1117-3.3 regulator for 3.3 V generation
-- Input and output filtering capacitors
-
-Power flow:
-
-```text
-12 V Input
-   |
-   |-- LM2596S-5.0 Buck Converter
-   |
-  5 V Rail
-   |
-   |-- AMS1117-3.3 Regulator
-   |
-  3.3 V Rail
-   |
- ESP32 + Logic Circuit
- Master Controller
-       |
-       | Modbus RTU over RS-485
-       |
- ESP32 Programmable PWM Controller
-       |
-       | PWM Outputs
-       |
- External LED / MOSFET / Driver Circuits
-       |
- Grow Light Channels / Fans / Actuators
-
+### PCB 3D View
 
 <p align="center">
-  <img src="assests\3.PNG" width="620"/>
+  <img src="assets\complete.jpg" alt="PCB 3D View" width="700">
 </p>
+
+---
+
+### Top Layer Routing
+
+<p align="center">
+  <img src="assets\design1.jpg" alt="PCB Top Layer Routing" width="700">
+</p>
+
+---
+
+### Bottom Layer Routing
+
+<p align="center">
+  <img src="assets\designs2.jpg" alt="PCB Bottom Layer Routing" width="700">
+</p>
+
+---
+
+### Fabricated PCB from PCBWay
+
+<p align="center">
+  <img src="assets\dd.jpg" alt="Fabricated PCB from PCBWay" width="700">
+</p>
+
+---
 
 
 
