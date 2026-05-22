@@ -133,3 +133,36 @@ Power flow:
  External LED / MOSFET / Driver Circuits
        |
  Grow Light Channels / Fans / Actuators
+
+
+<p align="center">
+  <img src="assests\3.PNG" width="620"/>
+</p>
+
+
+
+-
+## 🙏 Thanks to PCBWay
+
+<img src="assets\dd.jpg" alt="PCBWay Sponsored PCB" width="600">
+
+All of the design work on this **ESP32 Programmable PWM Controller with Modbus RTU** — concept, schematic design, PCB routing, firmware development, and debugging — is self-driven.
+
+This board was designed as a compact embedded controller that can generate multiple PWM outputs and communicate through **Modbus RTU using the MAX485 RS-485 transceiver**. It includes the ESP32 controller section, power regulation section, programming interface, RS-485 communication section, and external PWM output headers.
+
+Manufacturing a reliable 2-layer PCB with an ESP32 module, switching power supply section, RS-485 communication lines, and multiple I/O headers requires a good PCB fabrication partner.
+
+For this project, **PCBWay** supported the PCB fabrication, which helped me turn the KiCad design into a real hardware prototype.
+
+PCBWay’s fabrication service provided:
+
+- Clean soldermask and silkscreen quality
+- Accurate drilling for headers, mounting holes, and connectors
+- Reliable via quality for the 2-layer PCB routing
+- Good copper finish for power and signal traces
+- Professional PCB manufacturing quality suitable for testing and debugging
+- Fast turnaround, which is very helpful for student and research-based hardware development
+
+A huge thank you to **PCBWay** for supporting this project and helping bring this programmable controller PCB from a design file into a real working board. 🧡
+
+---
