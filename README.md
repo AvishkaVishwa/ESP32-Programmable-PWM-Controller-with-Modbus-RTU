@@ -7,14 +7,6 @@ This PCB was designed as part of my automation and grow-light control developmen
 
 ---
 
-## PCBWay Sponsorship
-
-This PCB project was sponsored by **PCBWay**.
-
-Special thanks to **PCBWay** for supporting the fabrication of this PCB and helping me turn the design into a real working hardware prototype. Their support helped me test the schematic, PCB layout, power supply section, ESP32 controller section, PWM outputs, and Modbus RTU communication interface on an actual manufactured board.
-
----
-
 ## Project Overview
 
 The board is built around the **ESP32-WROOM-32D** module.  
@@ -133,13 +125,8 @@ The following images show the PCB design, routing, 3D view, and hardware develop
 </p>
 
 ---
-
-
-
 -
 ## 🙏 Thanks to PCBWay
-
-<img src="assets\dd.jpg" alt="PCBWay Sponsored PCB" width="600">
 
 All of the design work on this **ESP32 Programmable PWM Controller with Modbus RTU** — concept, schematic design, PCB routing, firmware development, and debugging — is self-driven.
 
@@ -149,15 +136,19 @@ Manufacturing a reliable 2-layer PCB with an ESP32 module, switching power suppl
 
 For this project, **PCBWay** supported the PCB fabrication, which helped me turn the KiCad design into a real hardware prototype.
 
+One of the things I really liked about the fabricated PCB is the **blue solder mask finish**. The blue solder mask gives the board a clean and professional appearance while also making the white silkscreen labels easy to read. This is very helpful during assembly, testing, and debugging because component names, pin labels, and connector markings can be identified clearly.
+
 PCBWay’s fabrication service provided:
 
-- Clean soldermask and silkscreen quality
+- Beautiful **blue solder mask** finish with a professional look
+- Clean and readable white silkscreen on the blue PCB surface
 - Accurate drilling for headers, mounting holes, and connectors
 - Reliable via quality for the 2-layer PCB routing
 - Good copper finish for power and signal traces
+- Clean soldermask openings around pads and components
 - Professional PCB manufacturing quality suitable for testing and debugging
 - Fast turnaround, which is very helpful for student and research-based hardware development
 
-A huge thank you to **PCBWay** for supporting this project and helping bring this programmable controller PCB from a design file into a real working board. 🧡
+A huge thank you to **PCBWay** for supporting this project and helping bring this programmable controller PCB from a KiCad design file into a real working board. 🧡
 
 ---
